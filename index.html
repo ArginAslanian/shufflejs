@@ -32,6 +32,8 @@
               <p class="filter-label">Filter</p>
               <div class="btn-group filter-options">
                 <button class="btn btn--primary" data-group="italy">Italy</button>
+                <button class="btn btn--primary" data-group="rome">Rome</button>
+                <button class="btn btn--primary" data-group="florence">Florence</button>
                 <button class="btn btn--primary" data-group="usa">USA</button>
                 <button class="btn btn--primary" data-group="europe">Europe</button>
                 <button class="btn btn--primary" data-group="stadium">Stadium</button>
@@ -45,9 +47,6 @@
                 </label>
                 <label class="btn">
                   <input type="radio" name="sort-value" value="title" /> Title
-                </label>
-                <label class="btn">
-                  <input type="radio" name="sort-value" value="date-created" /> Date Created
                 </label>
               </div>
             </fieldset>
@@ -86,6 +85,20 @@
             </div>
           </figure>
 
+          <figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups='["italy", "rome"]' data-title="Vittorio Emanuele II Monument">
+            <div class="picture-item__inner">
+              <div class="aspect aspect--16x9">
+                <div class="aspect__inner">
+                  <img src="images/italy/Rome/vittorio-monument.jpg" alt="Vittorio Emanuele II Monument" />
+                </div>
+              </div>
+              <div class="picture-item__details">
+                <figcaption class="picture-item__title">Vittorio Emanuele II Monument</figcaption>
+                <p class="picture-item__tags hidden@xs">Rome</p>
+              </div>
+            </div>
+          </figure>
+
           <figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups='["usa"]' data-title="Chicago">
             <div class="picture-item__inner">
               <div class="aspect aspect--16x9">
@@ -110,6 +123,20 @@
               <div class="picture-item__details">
                 <figcaption class="picture-item__title">Miami</figcaption>
                 <p class="picture-item__tags hidden@xs">USA</p>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups='["italy", "florence"]' data-title="David">
+            <div class="picture-item__inner">
+              <div class="aspect aspect--16x9">
+                <div class="aspect__inner">
+                  <img src="images/italy/Florence/david.jpg" alt="David" />
+                </div>
+              </div>
+              <div class="picture-item__details">
+                <figcaption class="picture-item__title">David di Michelangelo</figcaption>
+                <p class="picture-item__tags hidden@xs">Florence</p>
               </div>
             </div>
           </figure>
